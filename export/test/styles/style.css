@@ -1,0 +1,129 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;   
+}
+a{
+    text-decoration: none;
+    color: #C19B77;;
+}
+header{
+    height: 400px;
+}
+h1{
+    color: white;
+}
+p{
+    align-self: center;
+}
+img{
+    object-fit:cover;
+}
+.city_img{
+    width: 65%;
+    height: 100%;
+    object-fit: cover;
+    object-position:inherit;
+}
+.castle_ill{
+
+    width: 25%;
+    background-color: aqua;
+    height: 90%;
+    border-radius: 25px;
+    align-self: center;
+}
+.castle_infos{
+    
+    font-size: 18px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.ctm{
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 50px;
+}
+.illustration{
+    display: flex;
+    height: 50%;
+}
+video{
+    width: 35%;
+    height: 100%;
+    object-fit: cover;
+}
+nav{
+    height: 20%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    background: #373737;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+li{
+    margin: 2px 25px;
+}
+.ls_e{
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 300px;
+    /*dvp things*/
+    margin-bottom: 10px;
+}
+.e{
+    border: 1px black solid;
+}
+#first{
+    width: 70%;
+    height: 100%;
+    background: #373737;
+    display: flex;
+    border-radius: 25px;
+    color: white;
+    justify-content: space-around;
+}
+
+#second{
+    width: 25%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.map{
+    width: 50%;
+}
+#third{
+    width: 30%;
+    height: 100%;
+    background-color: brown;
+}
+#fourth{
+    width: 65%;
+    height: 100%;
+    background-color: darkgoldenrod;
+}
+#map{
+    background-color: linear-gradient();
+}
